@@ -4,7 +4,7 @@ This repository contains a Java application intentionally vulnerable to CVE-2021
 
 log4stdin is quite literally nothing more than an stdin-reader, input of which is fed into a vulnerable log4j instance. The build ``log4stdin.jar`` uses Maven artefacts log4j-api 2.14.1 and log4j-core 2.14.1, and it uses a logging pattern which omits logging level and timestamp details. This version is Guaranteed Vulnerable:tm:.
 
-In ``/versions`` folder builds using default logging pattern and log4j versions 2.0-beta9 to 2.17.2 can be found.
+In ``versions/`` folder builds using default logging pattern and log4j versions 2.0-beta9 to 2.20.0 can be found.
 
 
 ## How to use?
@@ -47,7 +47,7 @@ It's not like there was much heavy lifting to do though, and feel free to reprod
 
 ### Apache Log4j2
 
-Copyright 1999&ndash;2021 The Apache Software Foundation
+Copyright 1999&ndash;2023 The Apache Software Foundation
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
